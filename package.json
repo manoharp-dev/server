@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "run": "node dist/index.ts",
+    "run": "node dist/index.js",
     "prebuild": "npm install",
     "build": "npx tsc -b"
   },
